@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { db } from "../utils/db.js";
+import { db } from "../../test-api-products/server/utils/db.js";
 import { ObjectId } from "mongodb";
 
 const productRouter = Router();

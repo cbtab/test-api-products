@@ -2,7 +2,7 @@ import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
 import productRouter from "./apps/products.js";
-import { client } from "./utils/db.js";
+import { client } from "../test-api-products/server/utils/db.js";
 
 const init = async () => {
   const app = express();
